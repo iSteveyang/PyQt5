@@ -10,6 +10,7 @@ print('\n#1')
 rst1 = add(4, 2)
 print('add(4, 2)=' , rst1)
 
+# partial函数用于携带部分参数生成一个新函数。
 plus3 = functools.partial(add, 3)
 plus5 = functools.partial(add, 5)
 
