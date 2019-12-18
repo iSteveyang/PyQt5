@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'MainForm.ui'
+# Form implementation generated from reading ui file 'MainForm2.ui'
 #
 # Created by: PyQt5 UI code generator 5.13.1
 #
@@ -16,6 +16,12 @@ class Ui_MainWindow(object):
         MainWindow.resize(608, 500)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
+        self.gridLayoutWidget = QtWidgets.QWidget(self.centralwidget)
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(-1, -1, 511, 401))
+        self.gridLayoutWidget.setObjectName("gridLayoutWidget")
+        self.MaingridLayout = QtWidgets.QGridLayout(self.gridLayoutWidget)
+        self.MaingridLayout.setContentsMargins(0, 0, 0, 0)
+        self.MaingridLayout.setObjectName("MaingridLayout")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 608, 22))
@@ -62,3 +68,4 @@ class Ui_MainWindow(object):
         self.fileCloseAction.setText(_translate("MainWindow", "关闭"))
         self.fileCloseAction.setShortcut(_translate("MainWindow", "Alt+C"))
         self.addWinAction.setText(_translate("MainWindow", "添加窗体"))
+        self.addWinAction.setShortcut(_translate("MainWindow", "Alt+A"))

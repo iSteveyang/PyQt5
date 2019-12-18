@@ -13,7 +13,19 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>511</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="MaingridLayout"/>
+   </widget>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
@@ -79,6 +91,9 @@
   <action name="addWinAction">
    <property name="text">
     <string>添加窗体</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+A</string>
    </property>
   </action>
  </widget>
