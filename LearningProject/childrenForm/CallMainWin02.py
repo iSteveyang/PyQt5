@@ -10,6 +10,7 @@ class MainForm(QMainWindow, Ui_MainWindow):
         super(MainForm, self).__init__()
         self.setupUi(self)
 
+        # self.child = children()生成子窗口实例self.child
         self.child = ChildrenForm()
         self.fileCloseAction.triggered.connect(self.close)
         self.fileOpenAction.triggered.connect(self.openMsg)

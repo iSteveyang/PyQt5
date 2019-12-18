@@ -14,6 +14,9 @@ class Ui_ChildrenForm(object):
     def setupUi(self, ChildrenForm):
         ChildrenForm.setObjectName("ChildrenForm")
         ChildrenForm.resize(472, 334)
+        self.textEdit = QtWidgets.QTextEdit(ChildrenForm)
+        self.textEdit.setGeometry(QtCore.QRect(20, 10, 421, 301))
+        self.textEdit.setObjectName("textEdit")
 
         self.retranslateUi(ChildrenForm)
         QtCore.QMetaObject.connectSlotsByName(ChildrenForm)

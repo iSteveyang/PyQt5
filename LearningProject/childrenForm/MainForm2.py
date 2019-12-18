@@ -17,7 +17,7 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.gridLayoutWidget = QtWidgets.QWidget(self.centralwidget)
-        self.gridLayoutWidget.setGeometry(QtCore.QRect(-1, -1, 511, 401))
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(40, 10, 511, 401))
         self.gridLayoutWidget.setObjectName("gridLayoutWidget")
         self.MaingridLayout = QtWidgets.QGridLayout(self.gridLayoutWidget)
         self.MaingridLayout.setContentsMargins(0, 0, 0, 0)
